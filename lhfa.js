@@ -130,16 +130,62 @@
       ];
     }
 
+ /**
+     * Get height-for-age reference row
+     * @param {string} sex - 'male' or 'female'
+     * @param {number|string} month - age in months
+     * @returns {Object|null} reference row or null
+     */
     getReference(sex, month) {
-      let data;
-      if (sex.toLowerCase() === 'boy' || sex.toLowerCase() === 'male') data = this.boys;
-      else if (sex.toLowerCase() === 'girl' || sex.toLowerCase() === 'female') data = this.girls;
-      else throw new Error('Sex must be "boy" or "girl"');
+      const table = sex.toLowerCase() === 'male' ? this.boys : this.girls;
+      return table.find(r => Number(r.Month) === Number(month)) || null;
+    }
 
-      return data.find(d => d.Month === month) || null;
+    /**
+     * Get height-for-age status
+     * @param {string} sex - 'male' or 'female'
+     * @param {number|string} month - age in months
+     * @param {number} height - height in cm
+     * @returns {Object} { status: string, color: string }
+     */
+    getStatus(sex, month, height) {
+      if (!sex || month == null || height == null) {
+        return { status: '', color: 'black' };
+      }
+
+      const table = sex.toLowerCase() === 'male' ? this.boys : this.girls;
+      const row = table.find(r => Number(r.Month) === Number(month));
+
+      if (!row) return { status: 'Month not found', color: 'gray' };
+
+      const { SD3neg, SD2neg, SD1neg, SD0, SD1, SD2, SD3 } = row;
+      const thresholds = [SD3neg, SD2neg, SD1neg, SD0, SD1, SD2, SD3].map(Number);
+
+      let status = '';
+      let color = '';
+
+      if (height < thresholds[0]) {
+        status = 'Below -3SD';
+        color = 'red';
+      } else if (height < thresholds[1]) {
+        status = 'Between -3 & -2SD';
+        color = 'orange';
+      } else if (height <= thresholds[5]) {
+        status = 'Between -2 & +2SD';
+        color = 'green';
+      } else if (height <= thresholds[6]) {
+        status = 'Between +2 & +3SD';
+        color = 'orange';
+      } else {
+        status = 'Above +3SD';
+        color = 'red';
+      }
+
+      return { status, color };
     }
   }
 
-  // Expose globally
+  // Expose globally for CDN usage
   global.HeightForAge = HeightForAge;
+
 })(window);
