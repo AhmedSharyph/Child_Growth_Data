@@ -1,5 +1,5 @@
-// whfa-data.js
-const WHFA_DATA = {
+// wfa-data.js
+const WFA_DATA = {
   Male: [
  { Month: 0, SD3neg: 2.1, SD2neg: 2.5, SD1neg: 2.9, SD0: 3.3, SD1: 3.9, SD2: 4.4, SD3: 5 },
   { Month: 1, SD3neg: 2.9, SD2neg: 3.4, SD1neg: 3.9, SD0: 4.5, SD1: 5.1, SD2: 5.8, SD3: 6.6 },
