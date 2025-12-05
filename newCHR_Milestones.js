@@ -1,4 +1,4 @@
-// milestones-newchr.v.1.js
+//newCHR_Milestones.js
 /**
  * newCHR_Milestones Library
  * Version: 2.1
