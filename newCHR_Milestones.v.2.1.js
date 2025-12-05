@@ -1,7 +1,7 @@
 // newCHR_Milestones.js
 /**
  * newCHR_Milestones Library
- * Version: 1.3.0
+ * Version: 2.1
  * Description: Render milestones by month with required milestone fields.
  * Adds ONE optional additional note per month.
  * License: MIT
