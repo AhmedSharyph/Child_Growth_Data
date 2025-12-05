@@ -11,8 +11,8 @@ const newCHR_Milestones = (() => {
 
   // --- Milestones Data ---
   const milestonesData = [
-{month: 2, category: "MILESTONE I - Social/Emotional Milestoness", label: "Calms down when spoken to or picked up", name: "calms_down_when_spoken_or_picked_up"},
-    {month: 2, category: "MILESTONE I - Social/Emotional Milestoness", label: "Looks at your face", name: "looks_at_your_face"},
+{month: 2, category: "MILESTONE I - Social/Emotional Milestones", label: "Calms down when spoken to or picked up", name: "calms_down_when_spoken_or_picked_up"},
+    {month: 2, category: "MILESTONE I - Social/Emotional Milestones", label: "Looks at your face", name: "looks_at_your_face"},
     {month: 2, category: "MILESTONE II - Language/Communication Milestones", label: "Makes sounds other than crying", name: "makes_sounds_other_than_crying"},
     {month: 2, category: "MILESTONE II - Language/Communication Milestones", label: "Reacts to loud sounds", name: "reacts_to_loud_sounds"},
     {month: 2, category: "MILESTONE III - Cognitive Milestones (learning, thinking, problem-solving)", label: "Watches you as you move", name: "watches_you_as_you_move"},
@@ -21,9 +21,9 @@ const newCHR_Milestones = (() => {
     {month: 2, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Moves both arms and both legs", name: "moves_both_arms_and_legs"},
     {month: 2, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Opens hands briefly", name: "opens_hands_briefly"},
 
-    {month: 4, category: "MILESTONE I - Social/Emotional Milestoness", label: "Smiles on his own to get your attention", name: "smiles_to_get_attention"},
-{month: 4, category: "MILESTONE I - Social/Emotional Milestoness", label: "Chuckles when you try to make her laugh", name: "chuckles_when_trying_to_laugh"},
-{month: 4, category: "MILESTONE I - Social/Emotional Milestoness", label: "Looks at you, moves, or makes sounds to get or keep your attention", name: "seeks_attention"},
+    {month: 4, category: "MILESTONE I - Social/Emotional Milestones", label: "Smiles on his own to get your attention", name: "smiles_to_get_attention"},
+{month: 4, category: "MILESTONE I - Social/Emotional Milestones", label: "Chuckles when you try to make her laugh", name: "chuckles_when_trying_to_laugh"},
+{month: 4, category: "MILESTONE I - Social/Emotional Milestones", label: "Looks at you, moves, or makes sounds to get or keep your attention", name: "seeks_attention"},
 {month: 4, category: "MILESTONE II - Language/Communication Milestones", label: "Makes sounds like “mamamama” and “babababa”", name: "babbles_mamamama_babababa"},
 {month: 4, category: "MILESTONE II - Language/Communication Milestones", label: "Lifts arms up to be picked up", name: "lifts_arms_to_be_picked_up"},
 {month: 4, category: "MILESTONE III - Cognitive Milestones (learning, thinking, problem-solving)", label: "Looks for objects when dropped out of sight", name: "looks_for_hidden_objects"},
@@ -33,9 +33,9 @@ const newCHR_Milestones = (() => {
 {month: 4, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Brings hands to mouth", name: "hands_to_mouth"},
 {month: 4, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Pushes up onto elbows/forearms when on tummy", name: "pushes_up_on_forearms"},
 
-    {month: 6, category: "MILESTONE I - Social/Emotional Milestoness", label: "Knows familiar people", name: "knows_familiar_people"},
-{month: 6, category: "MILESTONE I - Social/Emotional Milestoness", label: "Likes to look at himself in a mirror", name: "likes_mirror"},
-{month: 6, category: "MILESTONE I - Social/Emotional Milestoness", label: "Laughs", name: "laughs"},
+    {month: 6, category: "MILESTONE I - Social/Emotional Milestones", label: "Knows familiar people", name: "knows_familiar_people"},
+{month: 6, category: "MILESTONE I - Social/Emotional Milestones", label: "Likes to look at himself in a mirror", name: "likes_mirror"},
+{month: 6, category: "MILESTONE I - Social/Emotional Milestones", label: "Laughs", name: "laughs"},
 
 {month: 6, category: "MILESTONE II - Language/Communication Milestones", label: "Takes turns making sounds with you", name: "takes_turns_making_sounds"},
 {month: 6, category: "MILESTONE II - Language/Communication Milestones", label: "Blows “raspberries” (sticks tongue out and blows)", name: "blows_raspberries"},
@@ -50,10 +50,10 @@ const newCHR_Milestones = (() => {
 {month: 6, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Leans on hands to support himself when sitting", name: "leans_on_hands_sitting"},
 
 
-{month: 9, category: "MILESTONE I - Social/Emotional Milestoness", label: "Is shy, clingy, or fearful around strangers", name: "shy_or_fearful_strangers"},
-{month: 9, category: "MILESTONE I - Social/Emotional Milestoness", label: "Shows several facial expressions", name: "shows_facial_expressions"},
-{month: 9, category: "MILESTONE I - Social/Emotional Milestoness", label: "Looks when you call her name", name: "looks_when_called"},
-{month: 9, category: "MILESTONE I - Social/Emotional Milestoness", label: "Reacts when you leave", name: "reacts_when_you_leave"},
+{month: 9, category: "MILESTONE I - Social/Emotional Milestones", label: "Is shy, clingy, or fearful around strangers", name: "shy_or_fearful_strangers"},
+{month: 9, category: "MILESTONE I - Social/Emotional Milestones", label: "Shows several facial expressions", name: "shows_facial_expressions"},
+{month: 9, category: "MILESTONE I - Social/Emotional Milestones", label: "Looks when you call her name", name: "looks_when_called"},
+{month: 9, category: "MILESTONE I - Social/Emotional Milestones", label: "Reacts when you leave", name: "reacts_when_you_leave"},
 
 {month: 9, category: "MILESTONE II - Language/Communication Milestones", label: "Makes a lot of different sounds", name: "makes_various_sounds"},
 {month: 9, category: "MILESTONE II - Language/Communication Milestones", label: "Looks at you when you say \"no\"", name: "looks_when_said_no"},
@@ -67,9 +67,9 @@ const newCHR_Milestones = (() => {
 {month: 9, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Uses fingers to rake food toward himself", name: "rakes_food_with_fingers"},
 {month: 9, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Sits without support", name: "sits_without_support"},
     
-{month: 12, category: "MILESTONE I - Social/Emotional Milestoness", label: "Plays games like “peek-a-boo”", name: "plays_peekaboo"},
-{month: 12, category: "MILESTONE I - Social/Emotional Milestoness", label: "Hands you a book when he wants to hear a story", name: "hands_book_to_hear_story"},
-{month: 12, category: "MILESTONE I - Social/Emotional Milestoness", label: "Cries when parents leave", name: "cries_when_parents_leave"},
+{month: 12, category: "MILESTONE I - Social/Emotional Milestones", label: "Plays games like “peek-a-boo”", name: "plays_peekaboo"},
+{month: 12, category: "MILESTONE I - Social/Emotional Milestones", label: "Hands you a book when he wants to hear a story", name: "hands_book_to_hear_story"},
+{month: 12, category: "MILESTONE I - Social/Emotional Milestones", label: "Cries when parents leave", name: "cries_when_parents_leave"},
 
 {month: 12, category: "MILESTONE II - Language/Communication Milestones", label: "Waves “bye-bye”", name: "waves_bye"},
 {month: 12, category: "MILESTONE II - Language/Communication Milestones", label: "Calls a parent “mama” or “dada” or another special name", name: "says_mama_dada"},
@@ -82,10 +82,10 @@ const newCHR_Milestones = (() => {
 {month: 12, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Cruises by holding onto furniture", name: "cruises_on_furniture"},
 {month: 12, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Drinks from a cup without a lid with help", name: "drinks_from_cup_with_help"},
 
-{month: 15, category: "MILESTONE I - Social/Emotional Milestoness", label: "Copies other children while playing, like taking toys out of a box when another child does", name: "copies_other_children"},
-{month: 15, category: "MILESTONE I - Social/Emotional Milestoness", label: "Shows you an object they like", name: "shows_you_object_liked"},
-{month: 15, category: "MILESTONE I - Social/Emotional Milestoness", label: "Claps when excited", name: "claps_when_excited"},
-{month: 15, category: "MILESTONE I - Social/Emotional Milestoness", label: "Hugs stuffed doll or toy", name: "hugs_toy"},
+{month: 15, category: "MILESTONE I - Social/Emotional Milestones", label: "Copies other children while playing, like taking toys out of a box when another child does", name: "copies_other_children"},
+{month: 15, category: "MILESTONE I - Social/Emotional Milestones", label: "Shows you an object they like", name: "shows_you_object_liked"},
+{month: 15, category: "MILESTONE I - Social/Emotional Milestones", label: "Claps when excited", name: "claps_when_excited"},
+{month: 15, category: "MILESTONE I - Social/Emotional Milestones", label: "Hugs stuffed doll or toy", name: "hugs_toy"},
 
 {month: 15, category: "MILESTONE II - Language/Communication Milestones", label: "Tries to say one or two words besides “mama” or “dada”", name: "tries_to_say_new_words"},
 {month: 15, category: "MILESTONE II - Language/Communication Milestones", label: "Looks at familiar objects when you name them", name: "looks_at_named_objects"},
@@ -98,10 +98,10 @@ const newCHR_Milestones = (() => {
 {month: 15, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Uses fingers to feed herself small pieces of food", name: "uses_fingers_to_feed"},
     
 
-{month: 18, category: "MILESTONE I - Social/Emotional Milestoness", label: "Moves away from you, but looks to make sure you are close by", name: "moves_away_but_checks_back"},
-{month: 18, category: "MILESTONE I - Social/Emotional Milestoness", label: "Points to show you something interesting", name: "points_at_things"},
-{month: 18, category: "MILESTONE I - Social/Emotional Milestoness", label: "Puts hands out for you to wash them", name: "puts_hands_out_to_wash"},
-{month: 18, category: "MILESTONE I - Social/Emotional Milestoness", label: "Looks at a few pages in a book with you", name: "looks_at_book_pages"},
+{month: 18, category: "MILESTONE I - Social/Emotional Milestones", label: "Moves away from you, but looks to make sure you are close by", name: "moves_away_but_checks_back"},
+{month: 18, category: "MILESTONE I - Social/Emotional Milestones", label: "Points to show you something interesting", name: "points_at_things"},
+{month: 18, category: "MILESTONE I - Social/Emotional Milestones", label: "Puts hands out for you to wash them", name: "puts_hands_out_to_wash"},
+{month: 18, category: "MILESTONE I - Social/Emotional Milestones", label: "Looks at a few pages in a book with you", name: "looks_at_book_pages"},
 
 {month: 18, category: "MILESTONE II - Language/Communication Milestones", label: "Says at least 3 words besides “mama” or “dada”", name: "says_three_words"},
 {month: 18, category: "MILESTONE II - Language/Communication Milestones", label: "Follows one-step directions without gestures", name: "follows_one_step_no_gesture"},
@@ -114,8 +114,8 @@ const newCHR_Milestones = (() => {
 {month: 18, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Drinks from a cup without a lid and may spill", name: "drinks_from_open_cup"},
 
 
-{month: 24, category: "MILESTONE I - Social/Emotional Milestoness", label: "Notices when others are hurt or upset", name: "notices_others_upset"},
-{month: 24, category: "MILESTONE I - Social/Emotional Milestoness", label: "Looks at your face to see how to react to a new situation", name: "looks_at_your_face_for_reaction"},
+{month: 24, category: "MILESTONE I - Social/Emotional Milestones", label: "Notices when others are hurt or upset", name: "notices_others_upset"},
+{month: 24, category: "MILESTONE I - Social/Emotional Milestones", label: "Looks at your face to see how to react to a new situation", name: "looks_at_your_face_for_reaction"},
 
 {month: 24, category: "MILESTONE II - Language/Communication Milestones", label: "Says at least two words together like 'More milk'", name: "two_word_phrases"},
 {month: 24, category: "MILESTONE II - Language/Communication Milestones", label: "Points to things in a book when you ask", name: "points_in_book_when_asked"},
@@ -129,9 +129,9 @@ const newCHR_Milestones = (() => {
 {month: 24, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Runs", name: "runs"},
 {month: 24, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Walks (not climbs) up a few stairs with or without help", name: "walks_up_stairs"},
     
- {month: 30, category: "MILESTONE I - Social/Emotional Milestoness", label: "Plays next to other children and sometimes plays with them", name: "parallel_play"},
-{month: 30, category: "MILESTONE I - Social/Emotional Milestoness", label: "Shows you what she can do by saying 'Look at me!'", name: "shows_what_they_can_do"},
-{month: 30, category: "MILESTONE I - Social/Emotional Milestoness", label: "Follows simple routines like cleaning up toys", name: "follows_simple_routines"},
+ {month: 30, category: "MILESTONE I - Social/Emotional Milestones", label: "Plays next to other children and sometimes plays with them", name: "parallel_play"},
+{month: 30, category: "MILESTONE I - Social/Emotional Milestones", label: "Shows you what she can do by saying 'Look at me!'", name: "shows_what_they_can_do"},
+{month: 30, category: "MILESTONE I - Social/Emotional Milestones", label: "Follows simple routines like cleaning up toys", name: "follows_simple_routines"},
 
 {month: 30, category: "MILESTONE II - Language/Communication Milestones", label: "Says about 50 words", name: "says_50_words"},
 {month: 30, category: "MILESTONE II - Language/Communication Milestones", label: "Says two or more words together with an action word", name: "two_or_more_words_with_action"},
@@ -145,8 +145,8 @@ const newCHR_Milestones = (() => {
 {month: 30, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Takes some clothes off by himself", name: "takes_clothes_off"},
 {month: 30, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Jumps off the ground with both feet", name: "jumps_with_both_feet"},
 
-    {month: 36, category: "MILESTONE I - Social/Emotional Milestoness", label: "Calms down within 10 minutes after you leave", name: "calms_after_parent_leaves"},
-{month: 36, category: "MILESTONE I - Social/Emotional Milestoness", label: "Notices other children and joins them to play", name: "joins_others_to_play"},
+    {month: 36, category: "MILESTONE I - Social/Emotional Milestones", label: "Calms down within 10 minutes after you leave", name: "calms_after_parent_leaves"},
+{month: 36, category: "MILESTONE I - Social/Emotional Milestones", label: "Notices other children and joins them to play", name: "joins_others_to_play"},
 
 {month: 36, category: "MILESTONE II - Language/Communication Milestones", label: "Talks with you in conversation using at least 2 back-and-forth exchanges", name: "two_way_conversation"},
 {month: 36, category: "MILESTONE II - Language/Communication Milestones", label: "Asks 'who', 'what', 'where', or 'why' questions", name: "asks_questions"},
@@ -160,11 +160,11 @@ const newCHR_Milestones = (() => {
 {month: 36, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Uses a fork", name: "uses_fork"},
 {month: 36, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Puts on some clothes by himself", name: "puts_on_clothes"},
 
-{month: 48, category: "MILESTONE I - Social/Emotional Milestoness", label: "Pretends to be something else during play (teacher, dog, superhero)", name: "pretend_play_roles"},
-{month: 48, category: "MILESTONE I - Social/Emotional Milestoness", label: "Comforts others who are hurt or sad, like hugging a crying friend", name: "comforts_others"},
-{month: 48, category: "MILESTONE I - Social/Emotional Milestoness", label: "Avoids danger, like not jumping from tall heights", name: "avoids_danger"},
-{month: 48, category: "MILESTONE I - Social/Emotional Milestoness", label: "Likes to be a “helper”", name: "likes_to_help"},
-{month: 48, category: "MILESTONE I - Social/Emotional Milestoness", label: "Talks about what he likes and what he is interested in", name: "talks_about_interests"},
+{month: 48, category: "MILESTONE I - Social/Emotional Milestones", label: "Pretends to be something else during play (teacher, dog, superhero)", name: "pretend_play_roles"},
+{month: 48, category: "MILESTONE I - Social/Emotional Milestones", label: "Comforts others who are hurt or sad, like hugging a crying friend", name: "comforts_others"},
+{month: 48, category: "MILESTONE I - Social/Emotional Milestones", label: "Avoids danger, like not jumping from tall heights", name: "avoids_danger"},
+{month: 48, category: "MILESTONE I - Social/Emotional Milestones", label: "Likes to be a “helper”", name: "likes_to_help"},
+{month: 48, category: "MILESTONE I - Social/Emotional Milestones", label: "Talks about what he likes and what he is interested in", name: "talks_about_interests"},
 
 {month: 48, category: "MILESTONE II - Language/Communication Milestones", label: "Says sentences with 4 or more words", name: "sentences_four_words"},
 {month: 48, category: "MILESTONE II - Language/Communication Milestones", label: "Says some words from a song, story, or nursery rhyme", name: "says_song_rhyme_words"},
@@ -180,9 +180,9 @@ const newCHR_Milestones = (() => {
 {month: 48, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Unbuttons some buttons", name: "unbuttons_buttons"},
 {month: 48, category: "MILESTONE IV - Movement/Physical Development Milestones", label: "Holds crayon/pencil between fingers and thumb", name: "tripod_crayon_hold"},
 
-{month: 60, category: "MILESTONE I - Social/Emotional Milestoness", label: "Follows rules or takes turns when playing games", name: "follows_rules_takes_turns"},
-{month: 60, category: "MILESTONE I - Social/Emotional Milestoness", label: "Sings, dances, or acts for you", name: "performs_for_others"},
-{month: 60, category: "MILESTONE I - Social/Emotional Milestoness", label: "Does simple chores like matching socks or clearing the table with help", name: "does_simple_chores"},
+{month: 60, category: "MILESTONE I - Social/Emotional Milestones", label: "Follows rules or takes turns when playing games", name: "follows_rules_takes_turns"},
+{month: 60, category: "MILESTONE I - Social/Emotional Milestones", label: "Sings, dances, or acts for you", name: "performs_for_others"},
+{month: 60, category: "MILESTONE I - Social/Emotional Milestones", label: "Does simple chores like matching socks or clearing the table with help", name: "does_simple_chores"},
 
 {month: 60, category: "MILESTONE II - Language/Communication Milestones", label: "Tells a story with at least 2 events", name: "tells_story_two_events"},
 {month: 60, category: "MILESTONE II - Language/Communication Milestones", label: "Keeps a conversation going with at least 3 back-and-forth exchanges", name: "three_exchange_conversation"},
@@ -200,7 +200,7 @@ const newCHR_Milestones = (() => {
 
   // --- Category color mapping ---
   const categoryColors = {
-    "MILESTONE I - Social/Emotional Milestoness": "bg-blue-100 border-blue-400",
+    "MILESTONE I - Social/Emotional Milestones": "bg-blue-100 border-blue-400",
     "MILESTONE II - Language/Communication Milestones": "bg-green-100 border-green-400",
     "MILESTONE III - Cognitive Milestones (learning, thinking, problem-solving)": "bg-yellow-100 border-yellow-400",
     "MILESTONE IV - Movement/Physical Development Milestones": "bg-pink-100 border-pink-400"
