@@ -1,4 +1,4 @@
-//newCHR_Milestones.js
+//newCHR_Milestones.v.3.0.js
 /**
  * newCHR_Milestones Library
  * Version: 2.1
