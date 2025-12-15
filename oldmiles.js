@@ -1,4 +1,3 @@
-<script>
 /**
  * GLOBAL MILESTONES LIBRARY
  * Author: Your Team
@@ -135,5 +134,3 @@ window.Milestones = (function () {
   };
 
 })();
-</script>
-
