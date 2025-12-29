@@ -28,7 +28,7 @@ const MILESTONE_DATA = [
   {month:14,label:"Stand without support"},
   {month:14,label:"Says Mamma/Bappa specifically"},
   {month:14,label:"Wave bye-bye"},
-  {month:15,label:"Asks for things by pointing or using one word"},
+  {month:15,label:"Asks for things by pointing at or by using one word"},
   {month:16,label:"Walks alone"},
   {month:17,label:"Drink from cup"},
   {month:21,label:"Build a tower of 2 cubes"},
